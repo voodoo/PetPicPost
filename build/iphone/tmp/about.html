@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+	<title>About</title>
+	<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+	<link href="css/index.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" charset="utf-8">
+	 $(function(){
+	   $('#pvr').click(function(){
+	     Titanium.Platform.openURL(url(''))
+	   })
+	 })
+	</script>
+</head>
+<body>
+  <h1>Pet Vet Records</h1>
+  <ul>
+    <li class="arrow">
+      <a href="#" id="pvr">http://PetVetRecords.com</a>
+    </li>
+    <li>
+      Your pet's vet records online
+      <div class="hint">Available to anyone at anytime - especially your vet</div>
+    </li>
+   <li>
+     It's free
+     <div class="hint">But valuable - especially in emergencies</div>
+   </li>
+   <li>Love your pets! 
+     <div class="hint">It's fun and they'll love you for it</div>
+  </li>
+  </ul>
+</body>
+</html>
