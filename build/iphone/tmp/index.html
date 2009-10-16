@@ -1,0 +1,125 @@
+<!doctype html>
+<html>
+<head>
+	<title>Pet Vet Recs</title>
+	
+	<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+
+	<script type="text/javascript" src="js/pic.js"></script>
+	<script type="text/javascript" src="js/utl.js"></script>
+
+	<script type="text/javascript" src="js/clicks.js"></script>
+	<script type="text/javascript" src="js/act.js"></script>
+	
+	<script type="text/javascript" src="js/db.js"></script>
+	
+	<link href="css/body.css" rel="stylesheet" type="text/css" />
+	<link href="css/ul.css" rel="stylesheet" type="text/css" />
+	<link href="css/button.css" rel="stylesheet" type="text/css" />
+	<link href="css/a.css" rel="stylesheet" type="text/css" />
+	<link href="css/form.css" rel="stylesheet" type="text/css" />
+	<link href="css/h.css" rel="stylesheet" type="text/css" />
+	<link href="css/pic.css" rel="stylesheet" type="text/css" />
+	<link href="css/misc.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div id="indexPage" class="page">
+  <h1>Pet Vet Records</h1>
+  <ul>
+    <li class="arrow">
+      <a id="showAuth">Authenticate</a>
+      <div class="hint">Set your account credentials</div>
+    </li>
+    <li class="arrow">
+      <a id="showPic">Pet Pic Post</a>
+      <div class="hint">Send your images to Pet Vet Records</div>
+    </li>
+   <li class="arrow">
+     <a id="showAbout">About</a>
+     <div class="hint">About Pet Vet Records</div>
+   </li>
+   <li class="arrow">
+     <a id="showTest">Test</a>
+     <div class="hint">Test something</div>
+   </li>   
+  </ul>
+  </div>
+
+  <div id="authPage" style="display:none" class="page">
+  <h1><a class="backButton">Back</a> Pet Vet Records</h1> 
+  <h3>Account Information</h3>
+  <ul>
+  	<li >
+  	  <input type="text" id="username" placeholder="User Name">
+  	  <div class="hint">
+  	    Either your Email or Username
+  	  </div>
+  	</li>
+  	<li>
+  	  <input type="password" id="password" placeholder="Password">
+  	  <div class="hint">
+  	   The Password you chose
+  	  </div>
+  	</li>	
+    <!-- <li class="arrow">
+      <a href="#" id="noAccount">Don't have an account yet?</a>
+    </li> -->
+  	<li><a href="#" id="saveAccount"  class="whiteButton">Save Account Info</a></li>
+  	<li id="actSaved" style="display:none"><img src="img/wait.gif" align="center"/> Saving...</li>
+  </ul>    
+  </div>
+  
+  <div id="picPage" style="display:none" class="page"> 
+  <h1><a class="backButton">Back</a> Pet Vet Records</h1>
+  <h3>Pet Pic Post</h3>
+
+  <ul id="buttons">
+    <li class="arrow clear" id="getPic">
+      <img src="img/photos.png" style="width:48px" align="center"/>&nbsp;&nbsp;&nbsp;<span  style="font-size:120%">Get Pic</span>
+    </li>
+    <li class="arrow clear" id="takePic">
+      <img src="img/cam.png"  style="width:48px" align="center"/>&nbsp;&nbsp;&nbsp;<span   style="font-size:120%">Take Pic</span>
+    </li>
+  </ul>
+	
+	<ul id="preview" style="display:none">
+	  <li id="thumb"><img/></li>
+	  <li><input type="text" id="message" placeholder="Describe this Pet Pic"></li>
+	  <li><a class="whiteButton" id="uploadPic">Upload Pic</a></li>
+	  <li id="pets"><select id="pet"></select></li>
+	  <li class="arrow"><a  id="cancelPic">Cancel</a></li>
+	</ul>
+	
+  <ul id="status-console" style="display:none">
+    <li>
+	    <div id="posting" style="display:none;"><img src="img/wait.gif" align="center"/> Posting ...</div>
+      <div id="success" style="display:none;">Success!</div>
+      <div id="error"  style="display:none;">Connection failure</div>	
+    </li>
+  </ul>    
+  </div> 
+  
+  <div id="aboutPage" style="display:none" class="page"> 
+    <h1><a class="backButton">Back</a> Pet Vet Records</h1>
+    <h3>About</h3>
+
+    <ul>
+      <li class="arrow">
+        <a href="http://PetVetRecords.com" id="pvr">http://PetVetRecords.com</a>
+      </li>
+      <li>
+        Your pet's vet records online
+        <div class="hint">Available to anyone at anytime - especially your vet</div>
+      </li>
+     <li>
+       It's free
+       <div class="hint">But valuable - especially in emergencies</div>
+     </li>
+     <li>
+       Love your pets! 
+       <div class="hint">It's fun and they'll love you for it</div>
+    </li>
+    </ul>
+  </div>   
+</body>
+</html>

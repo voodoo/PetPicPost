@@ -1,0 +1,5 @@
+
+ul li input[type=text], ul li input[type=password], ul li select{
+  width:100%;
+  font-size:1.4em;
+}

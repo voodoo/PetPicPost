@@ -66,32 +66,32 @@ $(function()
   	
   //Make XHR request to post picture
 	function postPic(pic) {
-	  $('#status-console').show();
-	  $('#posting').show();       
-	  postTo(url('/plogs/upload_iphone_pic'), {
-      media:pic, 
-      username:Prop.get('username'), 
-      password:Prop.get('password'),
-      message: $('#message').val()}, function(rsp){
-        reset();
-        if(rsp.stat == 'ok'){
-          $("#posting").hide();
-          $("#success").fadeIn();
-          setTimeout(function(){
-            $("#status-console").fadeOut();
-            $("#success").fadeOut();
-          }, 3000) 
-        }else{
-          $("#error-message").html(rsp.err.msg);                  
-          $('#error').fadeIn();
-          $('#posting').hide();
-          setTimeout(function() {
-            $("#status-console").hide();
-            $("#error").hide();
-            $("#uploadPic").show();
-          },8000);
-        }//if
-    })//postTo
+    $('#status-console').show();
+    $('#posting').show();       
+    postTo(url('/plogs/upload_iphone_pic'), {
+          media:pic, 
+          username:Prop.get('username'), 
+          password:Prop.get('password'),
+          message: $('#message').val()}, function(rsp){
+            reset();
+            if(rsp.stat == 'ok'){
+              $("#posting").hide();
+              $("#success").fadeIn();
+              setTimeout(function(){
+                $("#status-console").fadeOut();
+                $("#success").fadeOut();
+              }, 3000) 
+            }else{
+              $("#error-message").html("Connection failed"); /*rsp.err.msg*/                  
+              $('#error').fadeIn();
+              $('#posting').hide();
+              setTimeout(function() {
+                $("#status-console").hide();
+                $("#error").hide();
+                $("#uploadPic").show();
+              },8000);
+            }//if
+        })//postTo
 	}//postPic
 	
  	$("#uploadPic").click(function() {
@@ -122,20 +122,22 @@ $(function()
     });
 	});
 			
+	// Set UI for not authenticated
 	function notAuthenticated(){
-	   Alert('yes', 'loaded');
 	   $('#status-console').show();
-	   $("#error-message").html('You must authenticate first');
-	   $('#error').fadeIn()
-     setTimeout(function() {
-        $("#status-console").fadeOut();
-        $("#error").hide();
-     },8000);	   
+	   $("#error").html('You must authenticate first');
+	   $('#error').show();
 	}	
-		
+	
+	function authenticated(){
+	  return (Prop.get('authenticated') === '1');
+	}
+	
 	$(function(){
-    if(Prop.get('authenticated') != '1'){
+    if(!authenticated()){
       notAuthenticated();      
+    } else {
+      setPets();
     }
 	})
 

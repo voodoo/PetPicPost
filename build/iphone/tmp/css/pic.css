@@ -1,0 +1,10 @@
+
+#thumb img{
+  width:55px;
+  height:55px;
+  border:2px solid black;
+}
+
+#error{
+  color:firebrick;
+}

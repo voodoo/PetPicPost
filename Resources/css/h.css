@@ -1,0 +1,18 @@
+h1{
+  background:url(../img/toolbar.png) repeat-x;
+  padding:6px;margin:0;
+  font-family:marker felt;
+  opacity:.8;
+  font-size:1.4em;
+  border-bottom:1px solid #333;
+  margin-bottom:10px;
+}
+
+h3{
+  color:#ccc;
+  text-shadow:#333 2px 2px 2px;
+  text-align:left;
+  padding:8px;
+  padding-left:20px;
+  
+}

@@ -1,0 +1,20 @@
+$(function(){	   
+ $('a#showTest').click(function(){
+   addHost();
+ }); 
+ $('#pvr').click(function(){
+   Titanium.Platform.openURL(url(''))
+ });
+ $('#showAuth').click(function(){
+   show('authPage');
+ });
+ $('#showPic').click(function(){
+   show('picPage');
+ }); 
+ $('#showAbout').click(function(){
+   show('aboutPage');
+ }); 
+ $('a.backButton').click(function(){
+   show('indexPage');
+ });  
+});
