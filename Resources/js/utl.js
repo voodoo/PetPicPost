@@ -89,6 +89,8 @@ Prop = {
 }
 
 function nav(to) {
-  Titanium.UI.createWindow({url:to+'.html', hideNavBar:true}).open({animated:true});  
+  var tab = Titanium.UI.getTabByName(to); 
+  Titanium.UI.setActiveTab(tab);   
+  //Titanium.UI.createWindow({url:to+'.html', hideNavBar:true}).open({animated:true});  
 }	
 

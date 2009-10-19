@@ -8,7 +8,7 @@
 	<prerendered-icon>false</prerendered-icon>
 	<statusbar-style>opaque</statusbar-style>
 	<windows>
-		<window>
+		<!--window>
 			<title>Index</title>
 			<id>index</id>
 			<url>index.html</url>
@@ -17,9 +17,9 @@
 			<fullscreen>false</fullscreen>
 			<hideNavBar>true</hideNavBar>
 			<hideTabBar>false</hideTabBar>
-		</window>	
+		</window-->	
 			  
-		<!--window>
+		<window>
 			<title>Pet Pic Post</title>
 			<id>picpost</id>
 			<url>pic.html</url>
@@ -48,6 +48,6 @@
 			<fullscreen>false</fullscreen>
 			<hideNavBar>true</hideNavBar>
 			<hideTabBar>false</hideTabBar>
-		</window-->				
+		</window>				
 	</windows>
 </ti:app>

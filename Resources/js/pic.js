@@ -127,6 +127,9 @@ $(function()
 	   $('#status-console').show();
 	   $("#error").html('You must authenticate first');
 	   $('#error').show();
+	   setTimeout(function(){
+	     nav('account');
+	   }, 2000);
 	}	
 	
 	function authenticated(){
@@ -137,7 +140,7 @@ $(function()
     if(!authenticated()){
       notAuthenticated();      
     } else {
-      setPets();
+      //setPets();
     }
 	})
 
