@@ -1,833 +1,0 @@
-TPetPicPost
-v7
-r0
-t277667736.690245
-cCheck dependencies
-cProcessInfoPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist Info.plist
-cPhaseScriptExecution "Run Script" /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
-cCompileXIB /Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/PetPicPost.app/Default.png Resources/Default.png
-cCopyPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/tiapp.plist Resources/tiapp.plist
-cCopyPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Entitlements.plist Resources/Entitlements.plist
-cProcessPCH /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch.gch PetPicPost_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/main.o /Users/paul/iPhone/PetPicPost/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/ApplicationRouting.o /Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost normal i386
-cGenerateDSYMFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app.dSYM /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost
-cTouch /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBook.framework/AddressBook
-c000000004A1221B6000000000005E250
-t1242702262
-s385616
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/AddressBookUI.framework/AddressBookUI
-c000000004A122255000000000019A6D0
-t1242702421
-s1681104
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/MapKit.framework/MapKit
-c000000004A12232A00000000001D2A20
-t1242702634
-s1911328
-
-N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.0.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
-c000000004A1220EF00000000000380E0
-t1242702063
-s229600
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk
-c000000004A6BC18300000000000000EE
-t1248575875
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
-c000000004A76576C0000000000010D50
-t1249269612
-s68944
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
-c000000004A76502000000000001925E0
-t1249267744
-s1648096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004A821911000000000026DAB0
-t1250040081
-s2546352
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
-c000000004A77B1210000000000049C70
-t1249358113
-s302192
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004A765094000000000027D510
-t1249267860
-s2610448
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004A7650820000000000001355
-t1249267842
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MediaPlayer.framework/MediaPlayer
-c000000004A860FEA00000000000CA290
-t1250299882
-s828048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/MessageUI.framework/MessageUI
-c000000004A7667960000000000068B50
-t1249273750
-s428880
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration
-c000000004A764F5A0000000000053FF0
-t1249267546
-s344048
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004A7C6E970000000000000788
-t1249668759
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004A7C6F590000000001670E70
-t1249668953
-s23531120
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libsqlite3.dylib
-c000000004A764E6900000000000C3980
-t1249267305
-s801152
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk/usr/lib/libz.dylib
-c00000000476CCCD10000000000006EE8
-t1198312657
-s28392
-
-N/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000004A67D2580000000000CE6940
-t1248318040
-s13527360
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.h
-c000000004ADCA7FF0000000000000421
-t1255974911
-s1057
-i<Foundation/Foundation.h>
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m
-c000000004ADCA7FF000000000002A79D
-t1255974911
-s173981
-i<Foundation/Foundation.h>
-i"ApplicationRouting.h"
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/PetPicPost_Prefix.pch
-c000000004ADCA7C40000000000000086
-t1255974852
-s134
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Resources/Default.png
-c000000004ADCA7FF000000000001B7A9
-t1255974911
-s112553
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Resources/Entitlements.plist
-c000000004ADCA7C400000000000000E1
-t1255974852
-s225
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib
-c000000004ADCA8020000000000002AE4
-t1255974914
-s10980
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Resources/libTitanium.a
-c000000004ADCA802000000000049C578
-t1255974914
-s4834680
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/Resources/tiapp.plist
-c000000004ADCA802000000000000032B
-t1255974914
-s811
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app
-t1255974936
-s442
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app.dSYM
-t1255974936
-s102
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png
-t1255974923
-s112553
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Entitlements.plist
-t1255974923
-s62
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist
-t1255974922
-s646
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/MainWindow.nib
-t1255974931
-s1539
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost
-t1255974936
-s717716
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PkgInfo
-t1255974920
-s8
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/tiapp.plist
-t1255974923
-s811
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/ApplicationRouting.o
-t1255974935
-s193076
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/PetPicPost.LinkFileList
-c000000004ADCA8080000000000000116
-t1255974920
-s278
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/main.o
-t1255974934
-s9852
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
-c000000004ADCA80800000000000001CE
-t1255974920
-s462
-
-N/Users/paul/iPhone/PetPicPost/build/iphone/main.m
-c000000004ADCA7FF0000000000000430
-t1255974911
-s1072
-i<UIKit/UIKit.h>
-
-N/var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch.gch
-t1255974934
-s8749240
-
-NInfo.plist
-c000000004ADCA80200000000000003C0
-t1255974914
-s960
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies277667716#277667720#0(0"0(0#1#0"4641560#0"0#
-
-CCompileC build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/ApplicationRouting.o /Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s277667734.923562
-e277667735.062598
-r1
-xCompileC
-xbuild/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/ApplicationRouting.o
-x/Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m277667734#277667735#0(0"0(0#0#71"/Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m2500586816#2145"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=502d2d87-785f-4b4c-a939-1cfaf4c38a17 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-generated-files.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-own-target-headers.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-all-target-headers.hmap -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-project-headers.hmap -F/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator -I/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/include -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources/i386 -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources -include /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch -c /Users/paul/iPhone/PetPicPost/build/iphone/Classes/ApplicationRouting.m -o /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/ApplicationRouting.o0#
-
-CCompileC build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/main.o /Users/paul/iPhone/PetPicPost/build/iphone/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s277667734.584912
-e277667734.923286
-r1
-xCompileC
-xbuild/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/main.o
-x/Users/paul/iPhone/PetPicPost/build/iphone/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@57"Compile /Users/paul/iPhone/PetPicPost/build/iphone/main.m277667734#277667734#0(0"0(0#0#49"/Users/paul/iPhone/PetPicPost/build/iphone/main.m2500586816#2109"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=502d2d87-785f-4b4c-a939-1cfaf4c38a17 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-generated-files.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-own-target-headers.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-all-target-headers.hmap -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-project-headers.hmap -F/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator -I/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/include -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources/i386 -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources -include /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch -c /Users/paul/iPhone/PetPicPost/build/iphone/main.m -o /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib
-s277667723.063980
-e277667732.175403
-r1
-xCompileXIB
-x/Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib
-oCouldn't open shared capabilities memory GSCapabilities (No such file or directory)
-lSLF07#2@35"CompileXIB Resources/MainWindow.xib277667723#277667732#0(84"Couldn't open shared capabilities memory GSCapabilities (No such file or directory)0(0#0#67"/Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib4641560#567"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/MainWindow.nib /Users/paul/iPhone/PetPicPost/build/iphone/Resources/MainWindow.xib0#
-
-CCopyPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Entitlements.plist Resources/Entitlements.plist
-s277667723.833955
-e277667723.921692
-r1
-xCopyPlistFile
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Entitlements.plist
-xResources/Entitlements.plist
-lSLF07#2@33"Copy Resources/Entitlements.plist277667723#277667723#0(0"0(0#0#71"/Users/paul/iPhone/PetPicPost/build/iphone/Resources/Entitlements.plist2500586816#476"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/Entitlements.plist --outdir /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app0#
-
-CCopyPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/tiapp.plist Resources/tiapp.plist
-s277667723.066722
-e277667723.833826
-r1
-xCopyPlistFile
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/tiapp.plist
-xResources/tiapp.plist
-lSLF07#2@26"Copy Resources/tiapp.plist277667723#277667723#0(0"0(0#0#64"/Users/paul/iPhone/PetPicPost/build/iphone/Resources/tiapp.plist2500586816#469"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 Resources/tiapp.plist --outdir /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app0#
-
-CCpResource build/Debug-iphonesimulator/PetPicPost.app/Default.png Resources/Default.png
-s277667723.065786
-e277667723.366044
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/PetPicPost.app/Default.png
-xResources/Default.png
-lSLF07#2@26"Copy Resources/Default.png277667723#277667723#0(0"0(0#0#64"/Users/paul/iPhone/PetPicPost/build/iphone/Resources/Default.png2500586816#542"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/paul/iPhone/PetPicPost/build/iphone/Resources/Default.png /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app0#
-
-CGenerateDSYMFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app.dSYM /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost
-s277667736.313942
-e277667736.668429
-r1
-xGenerateDSYMFile
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app.dSYM
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost
-lSLF07#2@118"GenerateDSYMFile build/Debug-iphonesimulator/PetPicPost.app.dSYM build/Debug-iphonesimulator/PetPicPost.app/PetPicPost277667736#277667736#0(0"0(0#0#96"/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost2500586816#466"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost -o /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app.dSYM0#
-
-CLd /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost normal i386
-s277667735.062873
-e277667736.313645
-r1
-xLd
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost
-xnormal
-xi386
-lSLF07#2@101"Link /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost277667735#277667736#0(0"0(0#0#0"2500586816#1341"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -L/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator -L/Users/paul/iPhone/PetPicPost/build/iphone -LResources -F/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator -filelist /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/PetPicPost.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -ObjC -framework SystemConfiguration -framework AVFoundation -framework CoreLocation -lz -framework AudioToolbox -framework Foundation -framework UIKit -framework MediaPlayer -framework CoreGraphics -lTitanium -lsqlite3 -framework MessageUI -framework OpenGLES -framework QuartzCore -framework MapKit -framework AddressBook -framework AddressBookUI -o /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PetPicPost0#
-
-CPhaseScriptExecution "Run Script" /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
-s277667720.208861
-e277667723.061539
-r1
-xPhaseScriptExecution
-xRun Script
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Script-B4EA72B50FBC96AA005AA7FB.sh
-oiphoneos-optimize: Converting plists to binary in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/
-oiphoneos-optimize: Converted to binary plist: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist
-oiphoneos-optimize: Optimizing PNGs in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png
-o   Total length of data found in IDAT chunks    =    33169
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =    38993
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon-pngcrush.png
-o     (17.56% IDAT increase)
-o     (17.10% filesize increase)
-o
-o   CPU time used = 0.015 seconds (decoding 0.002,
-o          encoding 0.007, other 0.005 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png
-o   Total length of data found in IDAT chunks    =   111663
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =   138533
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default-pngcrush.png
-o     (24.06% IDAT increase)
-o     (23.87% filesize increase)
-o
-o   CPU time used = 0.042 seconds (decoding 0.007,
-o          encoding 0.027, other 0.008 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png
-o   Total length of data found in IDAT chunks    =      671
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      761
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept-pngcrush.png
-o     (13.41% IDAT increase)
-o     (13.57% filesize increase)
-o
-o   CPU time used = 0.003 seconds (decoding 0.000,
-o          encoding 0.000, other 0.003 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png
-o   Total length of data found in IDAT chunks    =      975
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      916
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button-pngcrush.png
-o     (6.05% IDAT reduction)
-o     (1.30% filesize reduction)
-o
-o   CPU time used = 0.006 seconds (decoding 0.000,
-o          encoding 0.001, other 0.004 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png
-o   Total length of data found in IDAT chunks    =   309905
-o   Adding an opaque alpha channel.
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =   213321
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk-pngcrush.png
-o     (31.17% IDAT reduction)
-o     (31.15% filesize reduction)
-o
-o   CPU time used = 0.435 seconds (decoding 0.014,
-o          encoding 0.401, other 0.020 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png
-o   Total length of data found in IDAT chunks    =     8229
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8126
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam-pngcrush.png
-o     (1.25% IDAT reduction)
-o     (1.04% filesize reduction)
-o
-o   CPU time used = 0.010 seconds (decoding 0.001,
-o          encoding 0.003, other 0.005 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png
-o   Total length of data found in IDAT chunks    =      165
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      206
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron-pngcrush.png
-o     (24.85% IDAT increase)
-o     (22.01% filesize increase)
-o
-o   CPU time used = 0.002 seconds (decoding 0.000,
-o          encoding 0.000, other 0.001 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png
-o   Total length of data found in IDAT chunks    =      545
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      614
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross-pngcrush.png
-o     (12.66% IDAT increase)
-o     (12.98% filesize increase)
-o
-o   CPU time used = 0.003 seconds (decoding 0.000,
-o          encoding 0.000, other 0.003 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png
-o   Total length of data found in IDAT chunks    =      167
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      190
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock-pngcrush.png
-o     (13.77% IDAT increase)
-o     (14.94% filesize increase)
-o
-o   CPU time used = 0.002 seconds (decoding 0.000,
-o          encoding 0.001, other 0.001 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png
-o   Total length of data found in IDAT chunks    =      236
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      282
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab-pngcrush.png
-o     (19.49% IDAT increase)
-o     (18.79% filesize increase)
-o
-o   CPU time used = 0.002 seconds (decoding 0.000,
-o          encoding 0.001, other 0.001 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png
-o   Total length of data found in IDAT chunks    =     1145
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1123
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-pngcrush.png
-o     (1.92% IDAT reduction)
-o     (0.47% filesize reduction)
-o
-o   CPU time used = 0.006 seconds (decoding 0.000,
-o          encoding 0.000, other 0.005 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png
-o   Total length of data found in IDAT chunks    =     3873
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4257
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1-pngcrush.png
-o     (9.91% IDAT increase)
-o     (10.04% filesize increase)
-o
-o   CPU time used = 0.012 seconds (decoding 0.001,
-o          encoding 0.005, other 0.006 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png
-o   Total length of data found in IDAT chunks    =      992
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      806
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2-pngcrush.png
-o     (18.75% IDAT reduction)
-o     (15.43% filesize reduction)
-o
-o   CPU time used = 0.005 seconds (decoding 0.000,
-o          encoding 0.000, other 0.004 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png
-o   Total length of data found in IDAT chunks    =       83
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab-pngcrush.png
-o     (25.30% IDAT reduction)
-o     (2.82% filesize reduction)
-o
-o   CPU time used = 0.002 seconds (decoding 0.000,
-o          encoding 0.000, other 0.001 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png
-o   Total length of data found in IDAT chunks    =     8056
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8976
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-pngcrush.png
-o     (11.42% IDAT increase)
-o     (11.46% filesize increase)
-o
-o   CPU time used = 0.010 seconds (decoding 0.001,
-o          encoding 0.003, other 0.006 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png
-o   Total length of data found in IDAT chunks    =     1087
-o   Adding an opaque alpha channel.
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =      900
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar-pngcrush.png
-o     (17.20% IDAT reduction)
-o     (13.96% filesize reduction)
-o
-o   CPU time used = 0.006 seconds (decoding 0.001,
-o          encoding 0.001, other 0.003 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png
-o
-o | pngcrush 1.6.4
-o |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson
-o |    Copyright (C) 2005      Greg Roelofs
-o | This is a free, open-source program.  Permission is irrevocably
-o | granted to everyone to use this version of pngcrush without
-o | payment of any fee.
-o | Executable name is pngcrush
-o | It was built with libpng version 1.2.7, and is
-o | running with  libpng version 1.2.7 - September 12, 2004 (header)
-o |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,
-o |    Copyright (C) 1996, 1997 Andreas Dilger,
-o |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,
-o | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),
-o |    Jean-loup Gailly and Mark Adler.
-o | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).
-o
-o   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png
-o   Total length of data found in IDAT chunks    =      865
-oHandling unknown chunk 0
-o   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1013
-o   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton-pngcrush.png
-o     (17.11% IDAT increase)
-o     (15.13% filesize increase)
-o
-o   CPU time used = 0.004 seconds (decoding 0.000,
-o          encoding 0.001, other 0.003 seconds)
-o
-oiphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png
-lSLF07#2@36"Run custom shell script 'Run Script'277667720#277667723#0(25257"iphoneos-optimize: Converting plists to binary in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/iphoneos-optimize: Converted to binary plist: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plistiphoneos-optimize: Optimizing PNGs in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/ | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png   Total length of data found in IDAT chunks    =    33169   IDAT length with method 120 (fm 1 zl 9 zs 1) =    38993   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon-pngcrush.png     (17.56% IDAT increase)     (17.10% filesize increase)   CPU time used = 0.015 seconds (decoding 0.002,          encoding 0.007, other 0.005 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png   Total length of data found in IDAT chunks    =   111663   IDAT length with method 120 (fm 1 zl 9 zs 1) =   138533   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default-pngcrush.png     (24.06% IDAT increase)     (23.87% filesize increase)   CPU time used = 0.042 seconds (decoding 0.007,          encoding 0.027, other 0.008 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png   Total length of data found in IDAT chunks    =      671   IDAT length with method 120 (fm 1 zl 9 zs 1) =      761   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept-pngcrush.png     (13.41% IDAT increase)     (13.57% filesize increase)   CPU time used = 0.003 seconds (decoding 0.000,          encoding 0.000, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png   Total length of data found in IDAT chunks    =      975   IDAT length with method 120 (fm 1 zl 9 zs 1) =      916   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button-pngcrush.png     (6.05% IDAT reduction)     (1.30% filesize reduction)   CPU time used = 0.006 seconds (decoding 0.000,          encoding 0.001, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png   Total length of data found in IDAT chunks    =   309905   Adding an opaque alpha channel.   IDAT length with method 120 (fm 1 zl 9 zs 1) =   213321   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk-pngcrush.png     (31.17% IDAT reduction)     (31.15% filesize reduction)   CPU time used = 0.435 seconds (decoding 0.014,          encoding 0.401, other 0.020 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png   Total length of data found in IDAT chunks    =     8229   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8126   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam-pngcrush.png     (1.25% IDAT reduction)     (1.04% filesize reduction)   CPU time used = 0.010 seconds (decoding 0.001,          encoding 0.003, other 0.005 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png   Total length of data found in IDAT chunks    =      165   IDAT length with method 120 (fm 1 zl 9 zs 1) =      206   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron-pngcrush.png     (24.85% IDAT increase)     (22.01% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png   Total length of data found in IDAT chunks    =      545   IDAT length with method 120 (fm 1 zl 9 zs 1) =      614   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross-pngcrush.png     (12.66% IDAT increase)     (12.98% filesize increase)   CPU time used = 0.003 seconds (decoding 0.000,          encoding 0.000, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png   Total length of data found in IDAT chunks    =      167   IDAT length with method 120 (fm 1 zl 9 zs 1) =      190   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock-pngcrush.png     (13.77% IDAT increase)     (14.94% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png   Total length of data found in IDAT chunks    =      236   IDAT length with method 120 (fm 1 zl 9 zs 1) =      282   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab-pngcrush.png     (19.49% IDAT increase)     (18.79% filesize increase)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.001, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png   Total length of data found in IDAT chunks    =     1145   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1123   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-pngcrush.png     (1.92% IDAT reduction)     (0.47% filesize reduction)   CPU time used = 0.006 seconds (decoding 0.000,          encoding 0.000, other 0.005 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png   Total length of data found in IDAT chunks    =     3873   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4257   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1-pngcrush.png     (9.91% IDAT increase)     (10.04% filesize increase)   CPU time used = 0.012 seconds (decoding 0.001,          encoding 0.005, other 0.006 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png   Total length of data found in IDAT chunks    =      992   IDAT length with method 120 (fm 1 zl 9 zs 1) =      806   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2-pngcrush.png     (18.75% IDAT reduction)     (15.43% filesize reduction)   CPU time used = 0.005 seconds (decoding 0.000,          encoding 0.000, other 0.004 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png   Total length of data found in IDAT chunks    =       83   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab-pngcrush.png     (25.30% IDAT reduction)     (2.82% filesize reduction)   CPU time used = 0.002 seconds (decoding 0.000,          encoding 0.000, other 0.001 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png   Total length of data found in IDAT chunks    =     8056   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8976   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-pngcrush.png     (11.42% IDAT increase)     (11.46% filesize increase)   CPU time used = 0.010 seconds (decoding 0.001,          encoding 0.003, other 0.006 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png   Total length of data found in IDAT chunks    =     1087   Adding an opaque alpha channel.   IDAT length with method 120 (fm 1 zl 9 zs 1) =      900   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar-pngcrush.png     (17.20% IDAT reduction)     (13.96% filesize reduction)   CPU time used = 0.006 seconds (decoding 0.001,          encoding 0.001, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png | pngcrush 1.6.4 |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson |    Copyright (C) 2005      Greg Roelofs | This is a free, open-source program.  Permission is irrevocably | granted to everyone to use this version of pngcrush without | payment of any fee. | Executable name is pngcrush | It was built with libpng version 1.2.7, and is | running with  libpng version 1.2.7 - September 12, 2004 (header) |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson, |    Copyright (C) 1996, 1997 Andreas Dilger, |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc., | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later), |    Jean-loup Gailly and Mark Adler. | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png   Total length of data found in IDAT chunks    =      865Handling unknown chunk 0   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1013   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton-pngcrush.png     (17.11% IDAT increase)     (15.13% filesize increase)   CPU time used = 0.004 seconds (decoding 0.000,          encoding 0.001, other 0.003 seconds)iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png414(13@137"iphoneos-optimize: Converting plists to binary in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/277667722#0#137#0(1@0"0(13@143"iphoneos-optimize: Converted to binary plist: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist277667722#137#143#0(1@0"0(13@125"iphoneos-optimize: Optimizing PNGs in /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/277667722#280#125#0(1@0"0(13@18" | pngcrush 1.6.4277667722#406#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#424#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#481#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#524#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#591#63#0(1@0"0(13@23" | payment of any fee.277667722#654#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#677#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#708#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#758#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#826#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#884#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#931#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#991#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#1054#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#1093#77#0(1@0"0(13@115"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png277667722#1171#115#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =    33169277667722#1286#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =    38993277667722#1345#59#0(1@0"0(13@158"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon-pngcrush.png277667722#1404#158#0(1@0"0(13@28"     (17.56% IDAT increase)277667722#1562#28#0(1@0"0(13@32"     (17.10% filesize increase)277667722#1590#32#0(1@0"0(13@50"   CPU time used = 0.015 seconds (decoding 0.002,277667722#1623#50#0(1@0"0(13@47"          encoding 0.007, other 0.005 seconds)277667722#1673#47#0(1@0"0(13@132"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/appicon.png277667722#1721#132#0(1@0"0(13@18" | pngcrush 1.6.4277667722#1854#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#1872#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#1929#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#1972#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#2039#63#0(1@0"0(13@23" | payment of any fee.277667722#2102#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#2125#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#2156#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#2206#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#2274#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#2332#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#2379#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#2439#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#2502#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#2541#77#0(1@0"0(13@115"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png277667722#2619#115#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =   111663277667722#2734#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =   138533277667722#2793#59#0(1@0"0(13@158"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default-pngcrush.png277667722#2852#158#0(1@0"0(13@28"     (24.06% IDAT increase)277667722#3010#28#0(1@0"0(13@32"     (23.87% filesize increase)277667722#3038#32#0(1@0"0(13@50"   CPU time used = 0.042 seconds (decoding 0.007,277667722#3071#50#0(1@0"0(13@47"          encoding 0.027, other 0.008 seconds)277667722#3121#47#0(1@0"0(13@132"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Default.png277667722#3169#132#0(1@0"0(13@18" | pngcrush 1.6.4277667722#3302#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#3320#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#3377#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#3420#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#3487#63#0(1@0"0(13@23" | payment of any fee.277667722#3550#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#3573#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#3604#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#3654#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#3722#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#3780#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#3827#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#3887#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#3950#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#3989#77#0(1@0"0(13@118"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png277667722#4067#118#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      671277667722#4185#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      761277667722#4244#59#0(1@0"0(13@161"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept-pngcrush.png277667722#4303#161#0(1@0"0(13@28"     (13.41% IDAT increase)277667722#4464#28#0(1@0"0(13@32"     (13.57% filesize increase)277667722#4492#32#0(1@0"0(13@50"   CPU time used = 0.003 seconds (decoding 0.000,277667722#4525#50#0(1@0"0(13@47"          encoding 0.000, other 0.003 seconds)277667722#4575#47#0(1@0"0(13@135"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/accept.png277667722#4623#135#0(1@0"0(13@18" | pngcrush 1.6.4277667722#4759#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#4777#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#4834#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#4877#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#4944#63#0(1@0"0(13@23" | payment of any fee.277667722#5007#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#5030#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#5061#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#5111#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#5179#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#5237#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#5284#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#5344#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#5407#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#5446#77#0(1@0"0(13@123"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png277667722#5524#123#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      975277667722#5647#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      916277667722#5706#59#0(1@0"0(13@166"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button-pngcrush.png277667722#5765#166#0(1@0"0(13@28"     (6.05% IDAT reduction)277667722#5931#28#0(1@0"0(13@32"     (1.30% filesize reduction)277667722#5959#32#0(1@0"0(13@50"   CPU time used = 0.006 seconds (decoding 0.000,277667722#5992#50#0(1@0"0(13@47"          encoding 0.001, other 0.004 seconds)277667722#6042#47#0(1@0"0(13@140"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/back_button.png277667722#6090#140#0(1@0"0(13@18" | pngcrush 1.6.4277667722#6231#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#6249#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#6306#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#6349#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#6416#63#0(1@0"0(13@23" | payment of any fee.277667722#6479#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#6502#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#6533#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#6583#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#6651#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#6709#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#6756#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#6816#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#6879#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#6918#77#0(1@0"0(13@114"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png277667722#6996#114#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =   309905277667722#7110#59#0(1@0"0(13@35"   Adding an opaque alpha channel.277667722#7169#35#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =   213321277667722#7204#59#0(1@0"0(13@157"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk-pngcrush.png277667722#7263#157#0(1@0"0(13@29"     (31.17% IDAT reduction)277667722#7420#29#0(1@0"0(13@33"     (31.15% filesize reduction)277667722#7449#33#0(1@0"0(13@50"   CPU time used = 0.435 seconds (decoding 0.014,277667722#7483#50#0(1@0"0(13@47"          encoding 0.401, other 0.020 seconds)277667722#7533#47#0(1@0"0(13@131"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/bk.png277667722#7581#131#0(1@0"0(13@18" | pngcrush 1.6.4277667722#7713#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#7731#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#7788#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#7831#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#7898#63#0(1@0"0(13@23" | payment of any fee.277667722#7961#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#7984#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#8015#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#8065#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#8133#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#8191#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#8238#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#8298#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#8361#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#8400#77#0(1@0"0(13@115"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png277667722#8478#115#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     8229277667722#8593#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8126277667722#8652#59#0(1@0"0(13@158"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam-pngcrush.png277667722#8711#158#0(1@0"0(13@28"     (1.25% IDAT reduction)277667722#8869#28#0(1@0"0(13@32"     (1.04% filesize reduction)277667722#8897#32#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.001,277667722#8930#50#0(1@0"0(13@47"          encoding 0.003, other 0.005 seconds)277667722#8980#47#0(1@0"0(13@132"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cam.png277667722#9028#132#0(1@0"0(13@18" | pngcrush 1.6.4277667722#9161#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#9179#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#9236#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#9279#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#9346#63#0(1@0"0(13@23" | payment of any fee.277667722#9409#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#9432#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#9463#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#9513#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#9581#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#9639#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#9686#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#9746#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#9809#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#9848#77#0(1@0"0(13@119"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png277667722#9926#119#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      165277667722#10045#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      206277667722#10104#59#0(1@0"0(13@162"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron-pngcrush.png277667722#10163#162#0(1@0"0(13@28"     (24.85% IDAT increase)277667722#10325#28#0(1@0"0(13@32"     (22.01% filesize increase)277667722#10353#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277667722#10386#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)277667722#10436#47#0(1@0"0(13@136"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/chevron.png277667722#10484#136#0(1@0"0(13@18" | pngcrush 1.6.4277667722#10621#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#10639#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#10696#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#10739#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#10806#63#0(1@0"0(13@23" | payment of any fee.277667722#10869#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#10892#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#10923#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#10973#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#11041#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#11099#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#11146#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#11206#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#11269#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#11308#77#0(1@0"0(13@117"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png277667722#11386#117#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      545277667722#11503#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      614277667722#11562#59#0(1@0"0(13@160"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross-pngcrush.png277667722#11621#160#0(1@0"0(13@28"     (12.66% IDAT increase)277667722#11781#28#0(1@0"0(13@32"     (12.98% filesize increase)277667722#11809#32#0(1@0"0(13@50"   CPU time used = 0.003 seconds (decoding 0.000,277667722#11842#50#0(1@0"0(13@47"          encoding 0.000, other 0.003 seconds)277667722#11892#47#0(1@0"0(13@134"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/cross.png277667722#11940#134#0(1@0"0(13@18" | pngcrush 1.6.4277667722#12075#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#12093#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#12150#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#12193#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#12260#63#0(1@0"0(13@23" | payment of any fee.277667722#12323#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#12346#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#12377#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#12427#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#12495#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#12553#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#12600#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#12660#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#12723#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#12762#77#0(1@0"0(13@116"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png277667722#12840#116#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      167277667722#12956#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      190277667722#13015#59#0(1@0"0(13@159"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock-pngcrush.png277667722#13074#159#0(1@0"0(13@28"     (13.77% IDAT increase)277667722#13233#28#0(1@0"0(13@32"     (14.94% filesize increase)277667722#13261#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277667722#13294#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277667722#13344#47#0(1@0"0(13@133"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/lock.png277667722#13392#133#0(1@0"0(13@18" | pngcrush 1.6.4277667722#13526#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#13544#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#13601#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#13644#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#13711#63#0(1@0"0(13@23" | payment of any fee.277667722#13774#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#13797#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#13828#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#13878#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#13946#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#14004#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#14051#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#14111#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#14174#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#14213#77#0(1@0"0(13@119"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png277667722#14291#119#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      236277667722#14410#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      282277667722#14469#59#0(1@0"0(13@162"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab-pngcrush.png277667722#14528#162#0(1@0"0(13@28"     (19.49% IDAT increase)277667722#14690#28#0(1@0"0(13@32"     (18.79% filesize increase)277667722#14718#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277667722#14751#50#0(1@0"0(13@47"          encoding 0.001, other 0.001 seconds)277667722#14801#47#0(1@0"0(13@136"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-tab.png277667722#14849#136#0(1@0"0(13@18" | pngcrush 1.6.4277667722#14986#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#15004#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#15061#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#15104#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#15171#63#0(1@0"0(13@23" | payment of any fee.277667722#15234#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#15257#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#15288#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#15338#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#15406#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#15464#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#15511#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#15571#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#15634#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#15673#77#0(1@0"0(13@115"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png277667722#15751#115#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1145277667722#15866#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1123277667722#15925#59#0(1@0"0(13@158"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw-pngcrush.png277667722#15984#158#0(1@0"0(13@28"     (1.92% IDAT reduction)277667722#16142#28#0(1@0"0(13@32"     (0.47% filesize reduction)277667722#16170#32#0(1@0"0(13@50"   CPU time used = 0.006 seconds (decoding 0.000,277667722#16203#50#0(1@0"0(13@47"          encoding 0.000, other 0.005 seconds)277667722#16253#47#0(1@0"0(13@132"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw.png277667722#16301#132#0(1@0"0(13@18" | pngcrush 1.6.4277667722#16434#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#16452#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#16509#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#16552#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#16619#63#0(1@0"0(13@23" | payment of any fee.277667722#16682#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#16705#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#16736#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#16786#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#16854#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#16912#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#16959#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#17019#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#17082#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#17121#77#0(1@0"0(13@116"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png277667722#17199#116#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     3873277667722#17315#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     4257277667722#17374#59#0(1@0"0(13@159"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1-pngcrush.png277667722#17433#159#0(1@0"0(13@27"     (9.91% IDAT increase)277667722#17592#27#0(1@0"0(13@32"     (10.04% filesize increase)277667722#17619#32#0(1@0"0(13@50"   CPU time used = 0.012 seconds (decoding 0.001,277667722#17652#50#0(1@0"0(13@47"          encoding 0.005, other 0.006 seconds)277667722#17702#47#0(1@0"0(13@133"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw1.png277667722#17750#133#0(1@0"0(13@18" | pngcrush 1.6.4277667722#17884#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#17902#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#17959#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#18002#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#18069#63#0(1@0"0(13@23" | payment of any fee.277667722#18132#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#18155#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#18186#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#18236#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#18304#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#18362#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#18409#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#18469#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#18532#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#18571#77#0(1@0"0(13@116"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png277667722#18649#116#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      992277667722#18765#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      806277667722#18824#59#0(1@0"0(13@159"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2-pngcrush.png277667722#18883#159#0(1@0"0(13@29"     (18.75% IDAT reduction)277667722#19042#29#0(1@0"0(13@33"     (15.43% filesize reduction)277667722#19071#33#0(1@0"0(13@50"   CPU time used = 0.005 seconds (decoding 0.000,277667722#19105#50#0(1@0"0(13@47"          encoding 0.000, other 0.004 seconds)277667722#19155#47#0(1@0"0(13@133"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/paw2.png277667722#19203#133#0(1@0"0(13@18" | pngcrush 1.6.4277667722#19337#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#19355#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#19412#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#19455#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#19522#63#0(1@0"0(13@23" | payment of any fee.277667722#19585#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#19608#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#19639#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#19689#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#19757#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#19815#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#19862#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#19922#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#19985#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#20024#77#0(1@0"0(13@122"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png277667722#20102#122#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =       83277667722#20224#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =       62277667722#20283#59#0(1@0"0(13@165"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab-pngcrush.png277667722#20342#165#0(1@0"0(13@29"     (25.30% IDAT reduction)277667722#20507#29#0(1@0"0(13@32"     (2.82% filesize reduction)277667722#20536#32#0(1@0"0(13@50"   CPU time used = 0.002 seconds (decoding 0.000,277667722#20569#50#0(1@0"0(13@47"          encoding 0.000, other 0.001 seconds)277667722#20619#47#0(1@0"0(13@139"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-tab.png277667722#20667#139#0(1@0"0(13@18" | pngcrush 1.6.4277667722#20807#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667722#20825#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667722#20882#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667722#20925#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667722#20992#63#0(1@0"0(13@23" | payment of any fee.277667722#21055#23#0(1@0"0(13@31" | Executable name is pngcrush277667722#21078#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667722#21109#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667722#21159#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667722#21227#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667722#21285#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667722#21332#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667722#21392#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667722#21455#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667722#21494#77#0(1@0"0(13@118"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png277667722#21572#118#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     8056277667722#21690#59#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     8976277667723#21749#59#0(1@0"0(13@161"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos-pngcrush.png277667723#21808#161#0(1@0"0(13@28"     (11.42% IDAT increase)277667723#21969#28#0(1@0"0(13@32"     (11.46% filesize increase)277667723#21997#32#0(1@0"0(13@50"   CPU time used = 0.010 seconds (decoding 0.001,277667723#22030#50#0(1@0"0(13@47"          encoding 0.003, other 0.006 seconds)277667723#22080#47#0(1@0"0(13@135"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/photos.png277667723#22128#135#0(1@0"0(13@18" | pngcrush 1.6.4277667723#22264#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667723#22282#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667723#22339#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667723#22382#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667723#22449#63#0(1@0"0(13@23" | payment of any fee.277667723#22512#23#0(1@0"0(13@31" | Executable name is pngcrush277667723#22535#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667723#22566#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667723#22616#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667723#22684#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667723#22742#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667723#22789#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667723#22849#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667723#22912#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667723#22951#77#0(1@0"0(13@119"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png277667723#23029#119#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =     1087277667723#23148#59#0(1@0"0(13@35"   Adding an opaque alpha channel.277667723#23207#35#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =      900277667723#23242#59#0(1@0"0(13@162"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar-pngcrush.png277667723#23301#162#0(1@0"0(13@29"     (17.20% IDAT reduction)277667723#23463#29#0(1@0"0(13@33"     (13.96% filesize reduction)277667723#23492#33#0(1@0"0(13@50"   CPU time used = 0.006 seconds (decoding 0.001,277667723#23526#50#0(1@0"0(13@47"          encoding 0.001, other 0.003 seconds)277667723#23576#47#0(1@0"0(13@136"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/toolbar.png277667723#23624#136#0(1@0"0(13@18" | pngcrush 1.6.4277667723#23761#18#0(1@0"0(13@57" |    Copyright (C) 1998-2002,2006 Glenn Randers-Pehrson277667723#23779#57#0(1@0"0(13@43" |    Copyright (C) 2005      Greg Roelofs277667723#23836#43#0(1@0"0(13@67" | This is a free, open-source program.  Permission is irrevocably277667723#23879#67#0(1@0"0(13@63" | granted to everyone to use this version of pngcrush without277667723#23946#63#0(1@0"0(13@23" | payment of any fee.277667723#24009#23#0(1@0"0(13@31" | Executable name is pngcrush277667723#24032#31#0(1@0"0(13@50" | It was built with libpng version 1.2.7, and is277667723#24063#50#0(1@0"0(13@68" | running with  libpng version 1.2.7 - September 12, 2004 (header)277667723#24113#68#0(1@0"0(13@58" |    Copyright (C) 1998-2004,2006 Glenn Randers-Pehrson,277667723#24181#58#0(1@0"0(13@47" |    Copyright (C) 1996, 1997 Andreas Dilger,277667723#24239#47#0(1@0"0(13@60" |    Copyright (C) 1995, Guy Eric Schalnat, Group 42 Inc.,277667723#24286#60#0(1@0"0(13@63" | and zlib version 1.2.3, Copyright (C) 1998-2002 (or later),277667723#24346#63#0(1@0"0(13@39" |    Jean-loup Gailly and Mark Adler.277667723#24409#39#0(1@0"0(13@77" | It was compiled with gcc version 4.2.1 (Apple Inc.  build 5575) (dot 11).277667723#24448#77#0(1@0"0(13@123"   Recompressing /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png277667723#24526#123#0(1@0"0(13@59"   Total length of data found in IDAT chunks    =      865277667723#24649#59#0(1@0"0(13@25"Handling unknown chunk 0277667723#24708#25#0(1@0"0(13@59"   IDAT length with method 120 (fm 1 zl 9 zs 1) =     1013277667723#24733#59#0(1@0"0(13@166"   Best pngcrush method = 120 (fm 1 zl 9 zs 1) for /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton-pngcrush.png277667723#24792#166#0(1@0"0(13@28"     (17.11% IDAT increase)277667723#24958#28#0(1@0"0(13@32"     (15.13% filesize increase)277667723#24986#32#0(1@0"0(13@50"   CPU time used = 0.004 seconds (decoding 0.000,277667723#25019#50#0(1@0"0(13@47"          encoding 0.001, other 0.003 seconds)277667723#25069#47#0(1@0"0(13@140"iphoneos-optimize: Optimized PNG: /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/img/whiteButton.png277667723#25117#140#0(1@0"0(0#0#0"4641560#17526"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv ACTION build    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER paul    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS i386    setenv ARCHS_STANDARD_32_BIT i386    setenv ARCHS_UNIVERSAL_IPHONE_OS i386    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build    setenv BUILD_ROOT /Users/paul/iPhone/PetPicPost/build/iphone/build    setenv BUILD_STYLE Debug    setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator    setenv CACHE_ROOT /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501    setenv CCHROOT /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLASS_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/JavaClasses    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app    setenv CODE_SIGN_ENTITLEMENTS Resources/Entitlements.plist    setenv CODE_SIGN_IDENTITY "Don't Code Sign"    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator    setenv CONFIGURATION_TEMP_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator    setenv CONTENTS_FOLDER_PATH PetPicPost.app    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CURRENT_ARCH i386    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING NO    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources    setenv DERIVED_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources    setenv DERIVED_SOURCES_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources    setenv DEVELOPER_APPLICATIONS_DIR /Developer/Applications    setenv DEVELOPER_BIN_DIR /Developer/usr/bin    setenv DEVELOPER_DIR /Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED "\"/Developer/Library/Frameworks\""    setenv DEVELOPER_LIBRARY_DIR /Developer/Library    setenv DEVELOPER_SDK_DIR /Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Developer/Tools    setenv DEVELOPER_USR_DIR /Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH /Documentation    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT /tmp/PetPicPost.dst    setenv DWARF_DSYM_FILE_NAME PetPicPost.app.dSYM    setenv DWARF_DSYM_FOLDER_PATH /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator    setenv EFFECTIVE_PLATFORM_NAME -iphonesimulator    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENABLE_OPENMP_SUPPORT NO    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".svn CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) CVS .svn *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH PetPicPost.app/Executables    setenv EXECUTABLE_FOLDER_PATH PetPicPost.app    setenv EXECUTABLE_NAME PetPicPost    setenv EXECUTABLE_PATH PetPicPost.app/PetPicPost    setenv FILE_LIST /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects/LinkFileList    setenv FIXED_FILES_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/FixedFiles    setenv FRAMEWORKS_FOLDER_PATH PetPicPost.app/Frameworks    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "\"/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator\" "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME PetPicPost.app    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER PetPicPost_Prefix.pch    setenv GCC_PREPROCESSOR_DEFINITIONS "__LOG__ID__=502d2d87-785f-4b4c-a939-1cfaf4c38a17 DEPLOYTYPE=development DEBUG=1"    setenv GCC_PRODUCT_TYPE_PREPROCESSOR_DEFINITIONS " __IPHONE_OS_VERSION_MIN_REQUIRED=30000"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION 4.2    setenv GCC_VERSION_IDENTIFIER __2    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "\"/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/include\" "    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE Info.plist    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH PetPicPost.app/Info.plist    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH /InfoPlist.strings    setenv INSTALL_DIR /tmp/PetPicPost.dst/Users/paul/Applications    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER paul    setenv INSTALL_PATH /Users/paul/Applications    setenv INSTALL_ROOT /tmp/PetPicPost.dst    setenv IPHONEOS_DEPLOYMENT_TARGET 3.1    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH PetPicPost.app/Java    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-LinkMap-normal-i386.txt    setenv LD_OPENMP_FLAGS -fopenmp    setenv LEX /Developer/usr/bin/lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_SEARCH_PATHS "\"/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator\"  \"/Users/paul/iPhone/PetPicPost/build/iphone\" Resources"    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_i386 /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal/i386/PetPicPost.LinkFileList    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv MAC_OS_X_VERSION_ACTUAL 1061    setenv MAC_OS_X_VERSION_MAJOR 1060    setenv MAC_OS_X_VERSION_MINOR 0601    setenv NATIVE_ARCH i386    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL i386    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects    setenv OBJECT_FILE_DIR_normal /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Objects-normal    setenv OBJROOT /Users/paul/iPhone/PetPicPost/build/iphone/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-framework Foundation -framework UIKit -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Developer/Headers /Developer/SDKs /Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH PetPicPost.app/pbdevelopment.plist    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PkgInfo    setenv PKGINFO_PATH PetPicPost.app/PkgInfo    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/usr    setenv PLATFORM_DIR /Developer/Platforms/iPhoneSimulator.platform    setenv PLATFORM_NAME iphonesimulator    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH PetPicPost.app/PlugIns    setenv PREBINDING NO    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PrefixHeaders    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH PetPicPost.app/PrivateHeaders    setenv PRODUCT_NAME PetPicPost    setenv PRODUCT_SETTINGS_PATH /Users/paul/iPhone/PetPicPost/build/iphone/Info.plist    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT PetPicPost    setenv PROJECT_DERIVED_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/DerivedSources    setenv PROJECT_DIR /Users/paul/iPhone/PetPicPost/build/iphone    setenv PROJECT_FILE_PATH /Users/paul/iPhone/PetPicPost/build/iphone/PetPicPost.xcodeproj    setenv PROJECT_NAME PetPicPost    setenv PROJECT_TEMP_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build    setenv PUBLIC_HEADERS_FOLDER_PATH PetPicPost.app/Headers    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv REZ_COLLECTOR_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/ResourceManagerResources    setenv REZ_OBJECTS_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/ResourceManagerResources/Objects    setenv REZ_SEARCH_PATHS "\"/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator\" "    setenv RUN_CLANG_STATIC_ANALYZER NO    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH PetPicPost.app/Scripts    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk    setenv SDK_DIR /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk    setenv SDK_NAME iphonesimulator3.1    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH PetPicPost.app/SharedFrameworks    setenv SHARED_PRECOMPS_DIR /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH PetPicPost.app/SharedSupport    setenv SKIP_INSTALL YES    setenv SOURCE_ROOT /Users/paul/iPhone/PetPicPost/build/iphone    setenv SRCROOT /Users/paul/iPhone/PetPicPost/build/iphone    setenv STANDARD_C_PLUS_PLUS_LIBRARY_TYPE dynamic    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SYMBOL_REPOSITORY_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/SymbolRepositories    setenv SYMROOT /Users/paul/iPhone/PetPicPost/build/iphone/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETNAME PetPicPost    setenv TARGET_BUILD_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator    setenv TARGET_NAME PetPicPost    setenv TARGET_TEMP_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build    setenv TEMP_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build    setenv TEMP_FILES_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build    setenv TEMP_FILE_DIR /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build    setenv TEMP_ROOT /Users/paul/iPhone/PetPicPost/build/iphone/build    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH PetPicPost.app    setenv UNSTRIPPED_PRODUCT NO    setenv USER paul    setenv USER_APPS_DIR /Users/paul/Applications    setenv USER_LIBRARY_DIR /Users/paul/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALID_ARCHS i386    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH PetPicPost.app/version.plist    setenv VERSION_INFO_BUILDER paul    setenv VERSION_INFO_FILE PetPicPost_vers.c    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:PetPicPost  PROJECT:PetPicPost-\""    setenv WEB_SRC_ROOT /Users/paul/iPhone/PetPicPost/build/iphone/tmp    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME PetPicPost.app    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Developer/Library/Xcode    setenv XCODE_VERSION_ACTUAL 0321    setenv XCODE_VERSION_MAJOR 0300    setenv XCODE_VERSION_MINOR 0320    setenv YACC /Developer/usr/bin/yacc    /bin/sh -c /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/Script-B4EA72B50FBC96AA005AA7FB.sh0#
-
-CProcessInfoPlistFile /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist Info.plist
-s277667720.084144
-e277667720.208425
-r1
-xProcessInfoPlistFile
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist
-xInfo.plist
-lSLF07#2@18"Process Info.plist277667720#277667720#0(0"0(0#0#53"/Users/paul/iPhone/PetPicPost/build/iphone/Info.plist4641560#551"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app/Info.plist0#
-
-CProcessPCH /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch.gch PetPicPost_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s277667732.176047
-e277667734.584568
-r1
-xProcessPCH
-x/var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch.gch
-xPetPicPost_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@32"Precompile PetPicPost_Prefix.pch277667732#277667734#0(0"0(0#0#64"/Users/paul/iPhone/PetPicPost/build/iphone/PetPicPost_Prefix.pch2500586816#1994"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__LOG__ID__=502d2d87-785f-4b4c-a939-1cfaf4c38a17 -DDEPLOYTYPE=development -DDEBUG=1 -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-generated-files.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-own-target-headers.hmap -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-all-target-headers.hmap -iquote /Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/PetPicPost-project-headers.hmap -F/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator -I/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/include -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources/i386 -I/Users/paul/iPhone/PetPicPost/build/iphone/build/PetPicPost.build/Debug-iphonesimulator/PetPicPost.build/DerivedSources -c /Users/paul/iPhone/PetPicPost/build/iphone/PetPicPost_Prefix.pch -o /var/folders/6C/6CtPJP2gH5ujFeuHiPA+ZU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/PetPicPost_Prefix-hkdlwisrazowwwcnaegrnyjxshio/PetPicPost_Prefix.pch.gch0#
-
-CTouch /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app
-s277667736.668648
-e277667736.690009
-r1
-xTouch
-x/Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app
-lSLF07#2@91"Touch /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app277667736#277667736#0(0"0(0#0#0"2500586816#351"    cd /Users/paul/iPhone/PetPicPost/build/iphone    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/paul/iPhone/PetPicPost/build/iphone/build/Debug-iphonesimulator/PetPicPost.app0#
-
