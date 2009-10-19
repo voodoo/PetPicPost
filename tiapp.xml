@@ -43,7 +43,7 @@
 			<title>About</title>
 			<id>about</id>
 			<url>about.html</url>
-			<icon>img/paw.png</icon>
+			<icon>img/paw2.png</icon>
 			<backgroundColor>#090909</backgroundColor>
 			<fullscreen>false</fullscreen>
 			<hideNavBar>true</hideNavBar>
